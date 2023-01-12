@@ -1,0 +1,88 @@
+
+
+    
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 62.5%;
+    }
+
+    .comman-radius{
+               border-radius: 10px;
+           }
+
+    .center-all-data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            }
+
+
+    .phone-wapper{
+        width: 100%;
+        height: 100vh;
+        
+
+        .div{
+            width: 64%;
+            height: 458px;
+            border-radius: 30px;
+            border: 1px solid gray;
+            text-align: center;
+            background-color: #4a4a4a;
+
+            @media (max-width:500px) {
+                height: 500px;
+            }
+      
+            .icon-wapper{
+                width: 100%;
+                height: 8%;
+
+                .icons{
+                    width: 23%;
+                    height: 13px;
+                    background: #000;
+                    
+                }
+            }
+
+            .main-data{
+                width: 95%;
+                height: 84%;
+                margin: 0 auto;
+                background-color: #232426;
+                flex-direction: column;
+
+                .emogi-img{
+                    border-radius: 50%;
+                }
+            }
+        }
+
+
+    }
+
+
+
+    .back-wapper{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 40px;
+
+        .back-child{
+            position: absolute;
+            bottom: 0;
+            width: 40%;
+            height: 6px;
+            background-color: black;
+            border-radius: 10px;
+        }
+    }
+
+     
